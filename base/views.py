@@ -1,4 +1,4 @@
-from django.shortcuts import redirect, render
+from django.shortcuts import redirect
 # from django.http import HttpResponse
 from django.views.generic.list import ListView
 # for details of items
@@ -17,6 +17,7 @@ from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth import login
  
 from .models import Task
+
 
 # Create your views here.
 # def taskList(request):
